@@ -2,9 +2,9 @@ Whatsappbot/
 const { default: makeWASocket, useMultiFileAuthState } = require("@whiskeysockets/baileys");
 
 let parole = {
-    parola1: 0,
-    parola2: 0,
-    parola3: 0
+    Dio cane: 0,
+    Dio negro: 0,
+    Dio porco: 0
 };
 
 // 👤 contatore utenti
@@ -82,3 +82,15 @@ async function start() {
 }
 
 start();
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0"
+  }
+}
